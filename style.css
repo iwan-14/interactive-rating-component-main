@@ -34,10 +34,10 @@ body{
         var(--Dark-Blue),
         var(--Very-Dark-Blue)
         );
-    width: 400px;
-    height: 350px;
+    max-width: 45%;
     border-radius: 2rem;
     padding: 1.5rem;
+    margin: auto;
 }
 
 .icon-review{
@@ -114,10 +114,10 @@ body{
         var(--Dark-Blue),
         var(--Very-Dark-Blue)
         );
-    width: 400px;
-    height: 350px;
+    max-width: 45%;
     border-radius: 2rem;
     padding: 1.5rem;
+    margin: auto;
 }
 
 .card-thanks .img-review{
@@ -149,4 +149,13 @@ body{
     color: var(--Medium-Grey);
     text-align: center;
     font-size: 0.99rem;
+}
+
+@media screen and (max-width: 375px) {
+    .card-review{
+        max-width: 90%;
+    }
+    .card-thanks{
+        max-width: 90%;
+    }
 }
